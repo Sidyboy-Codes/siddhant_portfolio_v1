@@ -1,0 +1,19 @@
+
+
+.skill_grp{
+
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+
+    max-width: 48rem;
+}
+
+.skill_grp img{
+    width: 3rem;
+    height: 3rem;
+}
+

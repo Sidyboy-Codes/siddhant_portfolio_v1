@@ -1,0 +1,52 @@
+#hero {
+  text-align: center;
+  overflow: hidden;
+}
+
+#hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.hero_text {
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  line-height: 1.75rem;
+
+  max-width: 46rem;
+}
+#hero h1{
+  font-size: clamp(1.5rem, 1.012rem + 2.1687vw, 2.4rem);
+}
+#hero .btn {
+  margin: auto;
+}
+
+
+#hero img {
+  width: clamp(1rem, 100%, 25rem);
+  margin: auto;
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+  #hero {
+    text-align: left;
+  }
+  #hero .container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .hero_text{
+    max-width: 32rem;
+  }
+
+  #hero .btn{
+    margin: 0;
+  }
+}

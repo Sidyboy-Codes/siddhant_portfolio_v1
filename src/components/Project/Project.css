@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap");
+
+.project_grp {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.project_card {
+  width: clamp(1rem, 100%, 20rem);
+  height: fit-content;
+
+  border: 1px solid var(--border-color);
+  border-radius: 0.35rem;
+
+}
+
+.card_header {
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+}
+.card_header h4 {
+  width: fit-content;
+}
+
+.card_links {
+  display: flex;
+  gap: 0.4rem;
+}
+.card_links a {
+  padding: 0.12rem 0.4rem;
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.8125rem;
+  border: 0.4px solid var(--border-color);
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.card_body {
+  height: 8rem;
+  /* border-bottom: 1px solid var(--border-color); */
+  padding: 0.8rem 1rem;
+  overflow: auto;
+
+  /* scrollbar for firefox*/
+  scrollbar-width: 5px;
+  scrollbar-color: rgb(255, 166, 0) rgba(255, 111, 0, 0.237);
+}
+
+/* chrome, safari, opera scroll bar */
+.card_body::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(255, 111, 0, 0.237);
+  border-radius: 10px;
+}
+
+.card_body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 166, 0);
+  border-radius: 10px;
+}
+
+.card_body p {
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  font-size: 0.9125rem;
+}
+
+.card_footer {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 1.45rem;
+  color: rgb(255, 166, 0);
+  margin-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  padding: 0.6rem 1rem;
+}
+
+#project .btn {
+  margin: auto;
+}

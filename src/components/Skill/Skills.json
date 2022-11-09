@@ -1,0 +1,78 @@
+[
+    {
+        "name":"html",
+        "path": "./assets/Skill_logos/html-5.svg"
+    },
+    {
+        "name": "css",
+        "path": "./assets/Skill_logos/css-3.svg"
+    },
+    {
+        "name": "javascript",
+        "path": "./assets/Skill_logos/javascript.svg"
+    },
+    {
+        "name": "php",
+        "path": "./assets/Skill_logos/php.svg"
+    },
+    {
+        "name": "c sharp",
+        "path": "./assets/Skill_logos/c-sharp.svg"
+    },
+    {
+        "name": "React",
+        "path": "./assets/Skill_logos/react.svg"
+    },
+    {
+        "name": "Laravel",
+        "path": "./assets/Skill_logos/laravel.svg"
+    },
+    {
+        "name": "dotnet",
+        "path": "./assets/Skill_logos/dotnet.svg"
+    },
+    {
+        "name": "NodeJS",
+        "path": "./assets/Skill_logos/nodejs-icon.svg"
+    },
+    {
+        "name": "express",
+        "path": "./assets/Skill_logos/express.svg"
+    },
+    {
+        "name": "mongoDB",
+        "path": "./assets/Skill_logos/mongodb.svg"
+    },
+    {
+        "name": "mysql",
+        "path": "./assets/Skill_logos/mysql.svg"
+    },
+    {
+        "name": "tailwind css",
+        "path": "./assets/Skill_logos/tailwindcss.svg"
+    },
+    {
+        "name": "bootstrap",
+        "path": "./assets/Skill_logos/bootstrap.svg"
+    },
+    {
+        "name": "material ui",
+        "path": "./assets/Skill_logos/material-ui.svg"
+    },
+    {
+        "name": "figma",
+        "path": "./assets/Skill_logos/figma.svg"
+    },
+    {
+        "name": "adobe xd",
+        "path": "./assets/Skill_logos/adobe-xd.svg"
+    },
+    {
+        "name": "photoshop",
+        "path": "./assets/Skill_logos/adobe-photoshop.svg"
+    },
+    {
+        "name": "illustrator",
+        "path": "./assets/Skill_logos/adobe-illustrator.svg"
+    }
+]

@@ -1,0 +1,24 @@
+.feature_grp{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.85rem;
+}
+
+.feature_card{
+    text-align: center;
+    padding: 0rem 1rem;
+    max-width: 18rem;
+    margin: auto;
+
+}
+
+
+.feature_card p {
+    font-size: 0.85rem;
+    line-height: 1.6rem;
+  }
+  
+  .feature_card svg {
+    font-size: 1.6rem;
+  }
+  
