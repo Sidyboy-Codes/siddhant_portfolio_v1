@@ -79,11 +79,11 @@ const Project = () => {
             <div className="card_header">
               <h4 className="gradient-text">Portfolio</h4>
               <div className="card_links">
-                <a href="">
+                <a href="https://github.com/Sidyboy-Codes/siddhant_portfolio_v1">
                   <FiGithub />
                   code
                 </a>
-                <a href="">
+                <a href="siddhant.one">
                   <AiOutlineLink />
                   link
                 </a>
